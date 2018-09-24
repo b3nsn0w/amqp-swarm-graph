@@ -1,0 +1,40 @@
+{
+  "name": "amqp-swarm-graph",
+  "version": "0.1.0",
+  "description": "Node-to-node graph connections for amqp-swarm",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3nsn0w/amqp-swarm-graph.git"
+  },
+  "keywords": [
+    "amqp",
+    "messaging",
+    "swarm",
+    "graph"
+  ],
+  "author": "Ben Snow <balintbence97@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b3nsn0w/amqp-swarm-graph/issues"
+  },
+  "homepage": "https://github.com/b3nsn0w/amqp-swarm-graph#readme",
+  "devDependencies": {
+    "amqp-swarm": "^0.3.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.4",
+    "standard": "^12.0.1",
+    "ws": "^6.0.0"
+  },
+  "dependencies": {
+    "async-unwrap": "^1.0.1",
+    "debug": "^4.0.1"
+  },
+  "peerDependencies": {
+    "amqp-swarm": "<1.0 || 1.x"
+  }
+}
