@@ -53,7 +53,7 @@ The result is a boolean, if true, allows the operation to proceed. They can be p
 graphNode.on(event, handler)
 ```
 
-`ctx` has the `result` and `throw` properties, mirroring amqp-swarm. It also has the `state` property with a reference to the connection state, enabling filters to manipulate it immediately.
+`ctx` has the `result` and `throw` properties, mirroring amqp-swarm. It also has the `remote` and `state` properties, which provide the involved remote's ID and a reference to the connection state, respectively, enabling filters to manipulate the state immediately.
 
 By default, if no connection filters are attached, all operations go through.
 

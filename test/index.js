@@ -92,6 +92,7 @@ describe('amqp-swarm-graph', () => {
     expect(context.result).to.be.true
     expect(context.throw).to.be.a('function')
     expect(context.state).to.be.an('object')
+    expect(context.remote).to.equal('foo')
 
     expect(data).to.equal('actual drill')
   })
