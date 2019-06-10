@@ -1,6 +1,6 @@
 {
   "name": "amqp-swarm-graph",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Node-to-node graph connections for amqp-swarm",
   "main": "lib/index.js",
   "scripts": {
